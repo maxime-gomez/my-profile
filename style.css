@@ -1,0 +1,132 @@
+body {
+            font-family: Arial;
+            background-color: rgb(230, 230, 230); 
+            color: rgb(30, 30, 30);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 17px;
+
+            
+        }
+
+        .container {
+            width: 700px;
+            margin: 40px auto;
+            
+        }
+
+        .card-white {
+            background-color: white;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Ombre pour effet flottant */
+            border-radius: 4px;
+            padding: 40px;
+            margin: 20px 0px;
+            text-align: center;
+            
+        }
+
+        /* Style de l'image */
+     
+        .img-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+       
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: 3px;
+            color: black;
+        }
+
+
+        .profile-description {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 30px; /* Plus d'espace sous la description */
+        }
+     
+
+        h2 {
+            font-size: 32px;
+            color: #6aaf50;
+            margin: 10px 0;
+            font-weight: lighter;
+            display: flex;
+            font-weight: 500;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        
+
+     a:hover{
+        color: black;
+     }
+
+        
+
+        /* Style du bouton */
+
+        .btn-blue {
+            display: inline-block;
+            padding: 15px 20px;
+            color: white;
+            background-color: #6B72E1;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 9px
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-blue:hover {
+            background-color: black;
+            color: white;
+        }
+        
+        .list-inline{
+            list-style: none;
+            padding-left: 0px;
+            justify-content: center;        
+            display: flex;
+        }
+
+        .list-inline li {
+            display: inline;
+            padding: 10px;
+            transition: color 0.3s
+        }
+
+        .list-inline i{
+            font-size: 50px;
+            color: rgb(230,230,230);
+            
+        }
+
+        .list-inline i:hover{
+            color: black;
+        }
+        
+        #introduction p{
+            margin-bottom: 40px;
+        }
+        
+        @media (max-width: 760px) {
+            .container {
+                width: 600px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                width: 400px;
+            }
+        }
